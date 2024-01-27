@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+  background: rgba(1, 0, 17, 0.862745098);
+}
+
+.wrapper {
+  position: relative;
+  background: rgba(0, 0, 0, 0.7);
+  top: 300px;
+  margin: 0px auto;
+  padding: 15px;
+  max-width: 300px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  padding: 0;
+  margin: 0;
+  color: white;
+  padding: 0 0 20px 0;
+}
+
+form {
+  color: white;
+  text-align: center;
+}
+form * {
+  margin: 15px 0;
+}
+form input {
+  width: 200px;
+  margin: 20px 0 30px 0;
+}
+form label {
+  font-size: 31px;
+}
+form .Button {
+  font-size: 21px;
+  background: #000000;
+  color: white;
+  width: 100%;
+}
+  </style>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>Реєстрація</title>
+  <link rel="stylesheet" href="style/css/LogIng.css">
+</head>
+<body>
+  
+
+  <div class="wrapper">
+  <h1>Реєстрація</h1>
+  <form action="/register" method="post">
+    <label for="username">Ім'я користувача:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Код-кузова:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <input class="Button"type="submit" value="Зареєструватися">
+  </form>
+</div>
+</body>
+</html>

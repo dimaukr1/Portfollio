@@ -1,0 +1,44 @@
+body {
+    background: #010011dc;
+}
+.wrapper {
+    position: relative;
+    background: rgba($color: #000000, $alpha: 0.7);
+    top: 300px;
+    margin: 0px auto;
+    padding: 15px;
+    max-width: 300px;
+    
+}
+
+h1 {
+  text-align: center;
+    font-size: 55px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding: 0 0 20px 0;
+}
+form {
+    color: white;
+    text-align: center;
+    * {
+        margin: 15px 0;
+    }
+  input {
+    width: 200px;
+    margin: 20px 0 30px 0;
+  }
+  
+    label {
+        font-size: 31px;
+
+    }
+    .Button {
+        font-size: 21px;
+        background: #000000;
+        color: white;
+       width: 100%;
+    }
+    
+}
